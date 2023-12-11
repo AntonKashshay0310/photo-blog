@@ -1,15 +1,25 @@
 .container {
-    width: 906px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px solid red;
 }
 
+
+
 /* header content */
-.header {}
+.header {
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
 
 .header__nav {}
 
-.header__nav__list {}
+.header__nav__list {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
+}
 
 .header__nav__item {}
 
@@ -26,7 +36,11 @@
 }
 
 /* main content */
-.blog__list {}
+.blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: ;
+}
 
 .blog__item {}
 
